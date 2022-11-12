@@ -1,0 +1,259 @@
+.mySlides {
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    z-index: 2;
+}
+
+.header-logo {
+    display: inline-block;
+    width: 10vw;
+    height: 9vw;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.phone-number {
+    text-decoration: none;
+    position: absolute;
+    top: 8vh;
+    left: 75vw;
+}
+
+.phone-logo {
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    top: 10vh;
+    left: 70vw;
+}
+
+.all-link {
+    text-decoration: none;
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-link:hover {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.login {
+    position: absolute;
+    left: 80vw;
+}
+
+.upbutton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    outline: none;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    transform: 200ms;
+}
+
+.upbutton:hover {
+    background-color: darkblue;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-logo {
+    padding-left: 1vw;
+    width: 10vw;
+    height: 12vh;
+    position: relative;
+    bottom: 10vh;
+}
+
+.f_box {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.sub_text {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 20vw;
+    top: 7vh;
+    color: white;
+}
+
+.e_text {
+    position: relative;
+    left: 50vw;
+    border: none;
+    border-radius: 5px;
+    width: 25vw;
+    height: 6vh;
+    border-style: solid;
+}
+
+.e_button {
+    position: relative;
+    background: skyblue;
+    font-size: 17px;
+    border: 1px;
+    width: auto;
+    height: 6vh;
+    cursor: pointer;
+    border-radius: 5px;
+    left: 50vw;
+}
+
+.footer-ul1 {
+    position: relative;
+    left: 1vw;
+    bottom: 0vh;
+    list-style: none;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.footer-ul2 {
+    position: relative;
+    left: 20vw;
+    bottom: 14vh;
+    list-style: none;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.footer-ul3 {
+    position: relative;
+    left: 40vw;
+    bottom: 29vh;
+    list-style: none;
+    color: #ddd;
+    border: 1px;
+    border-color: rgb(0, 0, 0);
+}
+
+.footer-ul-topic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    list-style: none;
+}
+
+.footer-ul-data {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(187, 183, 183);
+}
+
+.footer-ul-data:hover {
+    color: white;
+}
+
+.footer {
+    padding: auto;
+}
+
+.head-footer {
+    overflow-y: hidden;
+    background-color: black;
+    position: relative;
+    height: 400px;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+
+.hr-style {
+    border: 2px solid rgb(228, 210, 19);
+    z-index: +1;
+}
+
+.footer-1-0 {
+    border: solid black;
+    padding: 3px 3px 3px 3px;
+    border-radius: 8px;
+}
+
+.footer-p-1 {
+    text-align: center;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main_other.css">
+    <!--icon use only-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Package Detalis</title>
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="header">
+        <div><span class="heading1">Keep Calm and Have a Safe Trip.</span>
+            <span class="login"><a href="#"class="all-link"><i class="fa fa-user"></i>&nbsp;</i>Login</a> / <a href="google.lk"class="all-link">Register</a></span>
+            <hr class="hr-style">
+        </div>
+        <div>
+            <img src="../images/phone-icon.svg" class="phone-logo" alt="phone-logo">
+            <p class="phone-number ">Call us:<br><a href="tel:+94110123456" class="all-link">+94 11 012 456</a> <br>
+        </div>
+        <div>
+            <img src="../images/Logo.jpeg" class="header-logo" alt="header-logo">
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Lets's Find Travel" name="search">
+                    <button type="submit" class="search-container-submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <div id="navbar">
+            <a class="active" href="../index.html">Home</a>
+            <a href="../Tour_packages.html">Tour Packages</a>
+            <a href="../reviews.html">Reviews</a>
+            <a href="../about_us.html">About Us</a>
+            <a href="../contact.html">Contact Us</a>
+        </div>
+        <div>
+            <div class="package-details-image-div">
+                <div style="text-align: center;">
+                    <img src="../images/Package 1.jpeg" class="package-details-image">
+                </div>
+                <div>
+                    <h2 class="pd-h2">Package : Two Day Package<br> Package Type : General</h2>
+                    <h2 class="pd-h2">Price : $200.00</h2>
+                </div>
+                <div>
+                    <h2 class="pd-h2">Package Details </h2>
+                    <p class="pd-para">Sri Lanka is bottled up with beautiful nature trails, stunning vistas and waterfalls, misty mountains rising into the clouds, golden beaches which is why it is known as the "Teardrop of India", it gives a variety of holiday experiences
+                        from pristine sandy sea shores of Mirissa where you can surf and observe the waters teeming with marine life, from turtles to big blue whales, bask in the sunny beach with a quiet and secluded environment adrenaline pumping adventure
+                        sports at Bentota such as snorkelling, windsurfing, etc., pass through several small islands in this lovely Madu River covered with the mangroves and even witness the making of the favorite cinnamon spice and discover the vibrancy
+                        of Colombo and explore a variety of fascinating attractions, as well as interacting with its authentic people. Delve into the city’s cultural diversity as you traverse through the colorful streets of the lively market.</p>
+
+
+                    <div>
+
+                        <form action="/action_page.php">
+                            <label for="From" class="review-labels">Select Date:</label><br>
+                            <input type="date" class="pd-input" name="date"><br><br><br><br>
+                            <label for="comment" class="review-labels">Comment:</label>
+                            <input type="text" class="pd-input" name="comment"><br><br>
+                            <button type="submit" class="pd-book">Book Now</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-1-0">
+            <div class="head-footer">
+                <div>
+                    <p class="sub_text">
+                        Subscribe to our Newsletter<br> Get all the latest information on Events, Sales and Offers.</p>
+                    <form action="https://www.boonfair.lk" role="Subscribe ">
+                        <input type="text" placeholder="Email address here..." name="search" class="e_text">
+                        <button type="subimt" class="e_button">Subscribe</button>
+                    </form>
+                    <img src="../images/Logo.jpeg" alt="footer-logo" class="footer-logo">
+                </div>
+                <div class="footer-ul1">
+                    <ul>
+                        <li class="footer-ul-topic">Support</li>
+                        <li><a href="#" class="footer-ul-data">Return & Refund Policy</a></li>
+                        <li><a href="#" class="footer-ul-data">Terms and Conditions</a></li>
+                        <li><a href="#" class="footer-ul-data">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-ul2">
+                    <ul>
+                        <li class="footer-ul-topic">Tour & Deals</li>
+                        <li><a href="#" class="footer-ul-data">Deals</a></li>
+                        <li><a href="#" class="footer-ul-data">Tout Packages</a></li>
+                        <li><a href="#" class="footer-ul-data">Map</a></li>
+                    </ul>
+                </div>
+                <div class="footer-ul3">
+                    <ul>
+                        <li class="footer-ul-topic">About Us</li>
+                        <li class="footer-ul-data">Phone : <a href="tel:+94110123456" class="footer-ul-data">+94 11 012 456</a></li>
+                        <li class="footer-ul-data">Email :<a href="mailto:info@abc.com" class="footer-ul-data"> info@abc.com</a></li>
+                        <li><a href="#" class="footer-ul-data">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <hr class="hr-style">
+                <p class="footer-p-1"> ABC Travel &copy; 2022. All Rights Reserved</p>
+            </div>
+        </div>
+        <button onclick="scrollToUp()" id="goToUp" title="Go to Up" class="upbutton"><i class="fa fa-arrow-up"></i></button>
+</body>
+
+</html>
+<script>
+    window.onscroll = function() {
+        myFunction();
+        seeButton();
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    var upbutton = document.getElementById("goToUp");
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+
+    function seeButton() {
+        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+            upbutton.style.display = "block";
+        } else {
+            upbutton.style.display = "none";
+        }
+    }
+
+    function scrollToUp() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>

@@ -1,0 +1,447 @@
+.compulsory {
+    color: red;
+}
+
+.bg-gradient {
+    height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, #d8f9ff, #E2FAB5, #99EE99);
+}
+
+.shake {
+    font-size: 30px;
+    display: block;
+    position: relative;
+}
+
+h1.shake,
+.shake.inline {
+    display: inline-block;
+}
+
+.contact-legent {
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+h1 {
+    color: #492b9c;
+}
+
+.shake:hover,
+.shake:focus {
+    animation-name: animate;
+    animation-duration: 0.8s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(2px, 1px)rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px)rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px)rotate(1deg);
+    }
+    30% {
+        transform: translate(0px, 2px)rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px)rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, -2px)rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px)rotate(0deg);
+    }
+    70% {
+        transform: translate(2px, 1px)rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px)rotate(1deg);
+    }
+    90% {
+        transform: translate(2px, 2px)rotate(0deg);
+    }
+    1000% {
+        transform: translate(1px, 1px)rotate(-1deg);
+    }
+}
+
+.shake {
+    border-radius: 50%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shake {
+    border-radius: 50%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shake {
+    border-radius: 50%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shake {
+    border-radius: 50%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shake {
+    border-radius: 50%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shake {
+    border-radius: 50%;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-1 {
+    border: 2px solid white;
+    padding: 3px 3px 3px 3px;
+    margin: 4px 3px 4px 3px;
+    position: relative;
+    width: 48vw;
+    height: 70vh;
+    border-radius: 10px;
+    background-color: rgb(159, 205, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-vision {
+    border: 2px solid white;
+    padding: 3px 3px 3px 3px;
+    margin: 4px 3px 4px 3px;
+    width: 48vw;
+    height: 34vh;
+    position: relative;
+    left: 49vw;
+    bottom: 72vh;
+    border-radius: 10px;
+    background-color: rgb(159, 205, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-mission {
+    border: 2px solid white;
+    padding: 3px 3px 3px 3px;
+    margin: 4px 3px 4px 3px;
+    width: 48vw;
+    height: 34vh;
+    position: relative;
+    left: 49vw;
+    bottom: 72vh;
+    border-radius: 10px;
+    background-color: rgb(159, 205, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-good-reason {
+    border: 2px solid white;
+    padding: 3px 3px 3px 3px;
+    margin: 4px 3px 4px 3px;
+    width: 48vw;
+    text-align: center;
+    position: relative;
+    left: 25vw;
+    bottom: 71vh;
+    height: 34vh;
+    border-radius: 10px;
+    background-color: rgb(159, 205, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-body {
+    height: 130vh;
+}
+
+.about-map {
+    position: relative;
+    left: 8vw;
+    bottom: 8vh;
+}
+
+.review-h1 {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.review-text-area {
+    position: relative;
+    left: 28vw;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.review-labels {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(128, 117, 106);
+    position: relative;
+    left: 10vw;
+}
+
+.about-input {
+    position: relative;
+    left: 10vw;
+    width: 25vw;
+    height: 6vh;
+    border-radius: 8px;
+}
+
+.review-text-area {
+    position: relative;
+    left: 15vw;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.reviews-send-button {
+    position: relative;
+    left: 40vw;
+    bottom: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: darkturquoise;
+    border: none;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.reviews-send-button:hover {
+    opacity: 1;
+    background-color: blue;
+}
+
+.reviews-1 {
+    border: 2px solid black;
+    margin: 5px 2px 5px 2px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkturquoise;
+}
+
+.package-image {
+    border-radius: 10px;
+    margin: 3px 3px 3px 3px;
+}
+
+.package-title {
+    text-align: center;
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.package-div {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px 6px 5px 6px;
+    width: 28.5vw;
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.package-div:hover {
+    border: 2px solid black;
+    transition: 500ms;
+}
+
+.package-details-image {
+    width: 90vw;
+    height: 75vh;
+    margin: 5px 6px 5px 6px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.package-details-image-div {
+    width: auto;
+    height: auto;
+    margin: 5px 6px 5px 6px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.pd-h2 {
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.pd-h3 {
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.pd-para {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pd-input {
+    position: relative;
+    left: 10vw;
+    width: 25vw;
+    height: 6vh;
+    border: none;
+    display: block;
+    border-bottom: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    font-size: 15px;
+}
+
+.pd-book {
+    background-color: darkturquoise;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    left: 45vw;
+    bottom: 10vh;
+}
+
+.login-ma {
+    text-align: center;
+    height: 20vh;
+    position: relative;
+    left: 30vw;
+    top: 10vh;
+    width: 35vw;
+    height: 60vh;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 20px;
+    padding-top: 10px;
+}
+
+.register-ma {
+    text-align: center;
+    height: 20vh;
+    display: none;
+    position: relative;
+    left: 30vw;
+    top: 10vh;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 20px;
+    padding-top: 10px;
+}
+
+.unselected {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.selected {
+    font-weight: bolder;
+    font-size: 1.4em;
+    cursor: default;
+    margin-top: 4px;
+}
+
+.su-body {
+    height: auto;
+}
+
+.ma-input {
+    width: 30vw;
+    height: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding-left: 5px;
+}
+
+.ma-button {
+    width: 30vw;
+    height: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #888;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
